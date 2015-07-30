@@ -1,0 +1,12 @@
+body {
+  background-color: #DDD;
+}
+
+.true {
+  display: block;
+}
+
+.false {
+  color: red;
+  background-color: yellow;
+}
