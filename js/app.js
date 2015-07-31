@@ -11,10 +11,8 @@ app.directive('makeEditable', function(){
 
 app.controller('editableController', ['$scope', function($scope){
   $scope.isEditable = false;
-  $scope.test="hi";
 
   $scope.clickEdit = function(){
-    console.log('testing');
     if($scope.isEditable == false){
       $scope.isEditable = true;
     } else {
